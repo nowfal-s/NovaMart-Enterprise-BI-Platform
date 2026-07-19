@@ -2,7 +2,7 @@
 
 ![Dashboard Preview](images/dashboard_demo.gif)
 
-*If the GIF does not load, view the [Static Dashboard Screenshot](images/dashboard_final.png) or the [PDF Preview](NovaMart_Dashboard_Preview.pdf).*
+*If the GIF does not load, view the [Static Dashboard Screenshot](images/dashboard_final.png) or the [PDF Preview](NovaMart_BI_Platform.pdf).*
 
 ## Project Overview
 An end-to-end Business Intelligence solution engineered for a simulated global retail company. This project replaces disjointed departmental spreadsheets with a centralized, single-version-of-truth data model to track revenue, profitability margins, and Year-over-Year growth.
