@@ -1,0 +1,21 @@
+Region_ID,Region_Name,Country
+1,North America,Country_1
+2,Asia Pacific,Country_2
+3,Europe,Country_3
+4,north america,Country_4
+5,,Country_5
+6,NorthAmerica,Country_6
+7,Europe,Country_7
+8,north america,Country_8
+9,Europe,Country_9
+10,Latin America,Country_10
+11,Asia Pacific,Country_11
+12,NorthAmerica,Country_12
+13,Latin America,Country_13
+14,Europe,Country_14
+15,Asia Pacific,Country_15
+16,,Country_16
+17,Asia Pacific,Country_17
+18,  North America ,Country_18
+19,Latin America,Country_19
+20,,Country_20
