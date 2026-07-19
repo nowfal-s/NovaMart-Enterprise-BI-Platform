@@ -1,11 +1,11 @@
-# NovaMart Global - Enterprise BI & Analytics Platform
+# NovaMart Enterprise BI & Analytics Platform
 
 ![Dashboard Preview](images/dashboard_demo.gif)
 
 *If the GIF does not load, view the [Static Dashboard Screenshot](images/dashboard_final.png) or the [PDF Preview](NovaMart_BI_Platform.pdf).*
 
 ## Project Overview
-An end-to-end Business Intelligence solution engineered for a simulated global retail company. This project replaces disjointed departmental spreadsheets with a centralized, single-version-of-truth data model to track revenue, profitability margins, and Year-over-Year growth.
+An end-to-end Business Intelligence solution engineered for a simulated global retail company. This project replaces disjointed departmental spreadsheets with a centralized Star Schema data model serving as the single source of truth. to track revenue, profitability margins, and Year-over-Year growth.
 
 **Tools Used:** Excel Power Query (M), Power Pivot, Data Modeling, DAX, Advanced CUBE Functions.
 
@@ -19,9 +19,9 @@ The NovaMart C-suite was relying on fragmented reports causing conflicting data 
 ## Solution Architecture
 
 ### 1. ETL & Data Engineering (Power Query)
-Processed roughly 85,000 rows of raw, dirty transactional data.
+Processed approximately 85,000+ transactional records of raw, dirty transactional data.
 * Standardized inconsistent categorical text and resolved data type formatting.
-* Identified and quantified orphan records (96 missing customers) using a Left Anti Join to preserve financial grand totals without breaking dimensional logic.
+* Identified 96 orphan Customer IDs through a Left Anti Join, preserving financial totals while exposing data-quality issues in the simulated source system.
 * Handled duplicate primary keys and null financial values prior to model loading.
 
 ### 2. Data Modeling (Power Pivot)
@@ -41,6 +41,34 @@ Wrote explicit DAX measures to calculate dynamic business logic, ensuring reusab
 Designed an application-like Executive Dashboard focused on immediate high-level insights.
 * Engineered KPI cards using `CUBEVALUE` functions, extracting DAX measures directly from the internal model to bypass fragile PivotTable layouts.
 * Synchronized global Timeline and Slicer controls to filter multiple distinct objects simultaneously.
+
+---
+
+## Features
+
+- Interactive Executive Dashboard
+- Dynamic KPI Cards
+- Timeline Filtering
+- Multi-Slicer Synchronization
+- Star Schema Data Model
+- Time Intelligence
+- Revenue Trend Analysis
+- Regional Performance Analysis
+- Category Profitability Analysis
+- Python-based Synthetic Data Generator
+
+---
+
+## Repository Structure
+
+NovaMart-Enterprise-BI-Platform
+│
+├── NovaMart_Raw_Datasets/
+├── images/
+├── NovaMart_BI_Platform.xlsx
+├── NovaMart_BI_Platform.pdf
+├── data_generator.py
+└── README.md
 
 ---
 
