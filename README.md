@@ -61,14 +61,25 @@ Designed an application-like Executive Dashboard focused on immediate high-level
 
 ## Repository Structure
 
+```text
 NovaMart-Enterprise-BI-Platform
 │
 ├── NovaMart_Raw_Datasets/
+│   ├── Raw_Dim_Customer.csv
+│   ├── Raw_Dim_Product.csv
+│   ├── Raw_Dim_Region.csv
+│   └── Raw_Fact_Sales.csv
+│
 ├── images/
+│   ├── dashboard_demo.gif
+│   ├── dashboard_final.png
+│   └── data_model.png
+│
 ├── NovaMart_BI_Platform.xlsx
 ├── NovaMart_BI_Platform.pdf
 ├── data_generator.py
 └── README.md
+```
 
 ---
 
